@@ -1,0 +1,14 @@
+{
+  "name": "testnpm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "asciiCats"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ascii-cats": "^1.1.1"
+  }
+}

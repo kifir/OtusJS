@@ -1,0 +1,19 @@
+curl -X 'POST' 
+  'https://gw-int-dev2.apim-dev.int.rolfcorp.ru/flora/internal/mdm-common/v2/mdm/get-works' 
+  -H 'accept: application/json' 
+  -H 'x-api-key: TQTv3jTpuJXW0RhV1G5wh1eZij8XWWMX' 
+  -H 'Content-Type: application/json' 
+  -d '{
+  "search_string": "ГИДРАВЛИЧЕСКИЙ БЛОК",
+  "mark_id": "Марка_MITSUBISHI",
+  "model_id": "МодельЛегковогоАвтомобиля_MITSUBISHI_ASX",
+  "generation_id": "Поколение_MITSUBISHI_ASX_6283492",
+  "body_type_id": "ade47e220086fc34mm3",
+  "drive_id": "ade47e220086fc34aa123gg1",
+  "engine_id": "ade47e220086fc34aa123ll1",
+  "transmission_id": "ade47e220086fc34aa123jj3",
+  "engine_volume": 1798,
+  "shop_type_id": "ТипЦеха_Слесарный",
+  "page": 1,
+  "page_size": 50
+}'
