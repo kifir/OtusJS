@@ -9,8 +9,6 @@ app.use((req, res, next) => {
 
 app.use(express.json()); // Для JSON-данных
 
-//
-
 app.get('/person/create', (req, res) => {     
     person[req.query.id] = {
         id: req.query.id,
